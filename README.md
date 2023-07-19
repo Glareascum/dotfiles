@@ -9,3 +9,4 @@ Personal linux configuration
 - nvim
 - polybar
 - kitty
+- picom
