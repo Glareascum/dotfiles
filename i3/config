@@ -27,11 +27,11 @@ set $green      #A3BE8C
 set $magenta    #B48EAD
 
 # Window colors.
-# Class		        	    border		bground		text		indicator	   child_border
-client.focused		    	$blue       $gray0      $white		$black          $cyan
-client.unfocused	    	$blue       $blue       $gray		$black          $gray0
-client.focused_inactive		$blue       $blue       $gray		$black          $black
-client.urgent		    	$red        $red        $red        $black          $red
+# Class		        				border	bground	text		indicator		child_border
+client.focused		    		$blue0  $gray0  $white	$black			$cyan
+client.unfocused	    		$blue0	$blue0	$gray0	$black			$gray0
+client.focused_inactive		$blue0	$blue0	$gray0	$black			$black
+client.urgent		    			$red		$red		$red		$black			$red
 
 ##############################
 # extra options for windows: #
@@ -41,7 +41,7 @@ client.urgent		    	$red        $red        $red        $black          $red
 hide_edge_borders both
 
 # Hide ALL window titles.
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 1
 
 # Set inner/outer gaps
 gaps inner 11
@@ -50,24 +50,6 @@ smart_gaps off
 
 # show window title bars (not officially supported with i3gaps)
 default_border none
-
-# window title alignment
-title_align center
-
-# Start XDG autostart .desktop files using dex. See also
-# https://wiki.archlinux.org/index.php/XDG_Autostart
-#exec --no-startup-id dex --autostart --environment i3
-
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
-#exec --no-startup-id nm-applet
 
 # Polybar
 exec --no-startup-id sh /home/tia/.config/polybar/launch.sh
@@ -88,7 +70,6 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Backlight control
 bindsym XF86MonBrightnessUp   exec --no-startup-id brightnessctl set +10% && notify-send --urgency=low -r 9999 "󰃠  Brightness: $((($(brightnessctl g)*100)/$(brightnessctl m)))%"
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%- && notify-send --urgency=low -r 9999 "󰃠  Brightness: $((($(brightnessctl g)*100)/$(brightnessctl m)))%"
-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
