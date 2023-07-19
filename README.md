@@ -8,3 +8,4 @@ Personal linux configuration
 - i3
 - nvim
 - polybar
+- kitty
