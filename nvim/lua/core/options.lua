@@ -5,6 +5,8 @@
 --  - .cmd functions access to the vim's ex commands
 --  Ref: https://neovim.io/doc/user/lua-guide.html
 
+-- Normal line numbers
+vim.opt.nu = true
 -- Relative line numbers
 vim.opt.relativenumber = true
 -- Mouse usage
@@ -16,10 +18,12 @@ vim.opt.smartcase = true
 vim.opt.wrap = true
 vim.opt.breakindent = true
 -- Number of space a tab use, default is 8
-vim.opt.tabstop = 2
+vim.opt.tabstop = 4
 -- Indentation space used
-vim.opt.shiftwidth = 2
+vim.opt.shiftwidth = 4
 -- Leader key
 vim.g.mapleader = ' '
 -- Syntax off
 vim.g.synax = 'off'
+-- Keep a number of lines always visible while scrolling
+vim.opt.scrolloff = 8

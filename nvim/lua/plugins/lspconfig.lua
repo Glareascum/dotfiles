@@ -29,8 +29,19 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 local lsp_config = require 'lspconfig'
+
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+local lsp_flags = {
+    -- Prevent the LSP client from making too many calls.
+    debounce_text_changes = 250, -- ms
+}
+local default = {
+    lsp_flags = lsp_flags,
+    capabilities = capabilities,
+}
+
 -- Bash
-lsp_config.bashls.setup {}
+lsp_config.bashls.setup { default }
 
 -- Lua
 lsp_config.lua_ls.setup {
@@ -55,15 +66,3 @@ lsp_config.lua_ls.setup {
 		},
 	},
 }
-
---local capabilities = require('cmp_nvim_lsp').default_capabilities()
---local lsp_flags = {
---    -- Prevent the LSP client from making too many calls.
---    debounce_text_changes = 250, -- ms
---}
---local default = {
---    lsp_flags = lsp_flags,
---    capabilities = capabilities,
---}
---lsp_config.lua_ls.setup { default }
---lsp_config.bashls.setup { default }

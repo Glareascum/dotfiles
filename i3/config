@@ -52,13 +52,13 @@ smart_gaps off
 default_border none
 
 # Polybar
-exec --no-startup-id sh /home/tia/.config/polybar/launch.sh
+exec --no-startup-id sh ~/.config/polybar/launch.sh
 
 # Keyboard keys
 exec --no-startup-id setxkbmap it
 
 # Wallpaper
-exec --no-startup-id feh --bg-scale /home/tia/.config/wallpaper
+exec --no-startup-id feh --bg-scale ~/.config/wallpaper/wallpaper.png
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -185,7 +185,7 @@ mode "resize" {
         bindsym h resize shrink width 10 px or 10 ppt
         bindsym j resize grow height 10 px or 10 ppt
         bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+		bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
