@@ -32,12 +32,12 @@ local lsp_config = require 'lspconfig'
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 local lsp_flags = {
-    -- Prevent the LSP client from making too many calls.
-    debounce_text_changes = 250, -- ms
+	-- Prevent the LSP client from making too many calls.
+	debounce_text_changes = 250, -- ms
 }
 local default = {
-    lsp_flags = lsp_flags,
-    capabilities = capabilities,
+	lsp_flags = lsp_flags,
+	capabilities = capabilities,
 }
 
 -- Bash
@@ -65,4 +65,14 @@ lsp_config.lua_ls.setup {
 			},
 		},
 	},
+}
+
+-- Markdown / latex
+lsp_config.ltex.setup {
+	settings = {
+		ltex = {
+			language = "en-US",
+			filetypes = { "markdown" },
+		}
+	}
 }

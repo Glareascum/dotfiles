@@ -46,21 +46,15 @@ lazy.setup({
 	{
 		'navarasu/onedark.nvim'
 	},
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000
+	},
 	-- Lualine for statusbar
 	{
 		'nvim-lualine/lualine.nvim',
 		config = function() require 'plugins.lualine' end
-	},
-	-- Dashboard for welcome screen
-	{
-		'glepnir/dashboard-nvim',
-		dependencies = { 'nvim-tree/nvim-web-devicons' },
-		config = function() require 'plugins.dashboard' end,
-		event = 'VimEnter',
-	},
-	-- Colorizer for color hexadecimal color in text
-	{
-		'NvChad/nvim-colorizer.lua',
 	},
 	-- Trouble for showing errors
 	{
