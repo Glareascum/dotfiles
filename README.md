@@ -22,4 +22,5 @@ All written in **lua**, lazy as plugin mangaer.
 - Trouble;
 
 ## Screen
-![screen](https://github.com/Glareascum/dotfiles/assets/49961900/3b3b7a96-1ab8-4ae6-afb8-55a2dfdac080)
+![2023-08-19-003701_1920x1080_scrot](https://github.com/Glareascum/dotfiles/assets/49961900/cc1dfc15-58bb-451e-92b5-cb92e93b6d5d)
+
