@@ -7,5 +7,4 @@ require('plugins.lazy')
 -- UI module
 local U =require('core.ui')
 --  Choose theme
---U.apply_theme('catppuccin-macchiato')
-U.apply_theme('tokyonight-storm')
+U.apply_theme('nordic')
