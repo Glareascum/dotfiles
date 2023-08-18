@@ -10,8 +10,8 @@ Actually the current setup includes:
 - **NVim** as text editing engine. Currently highly customized (of course). Current theme: tokyonight, storm variant.
 
 ## Nvim
-Still learning about Nvim, so I tried to comment at best the various files, I hope to get better at those file in the future (maybe some plugins is not configured at best).
-All written in **lua**, lazy as plugin mangaer.
+Still learning about Nvim, so I tried to comment at best the various files, I hope to get better at those file in the future (maybe some plugins are not configured at best).
+All written in **lua** from scratch as a learning path, lazy as plugin manager used mainly without events.
 
 ### Current plugins
 - CMP;
@@ -22,4 +22,4 @@ All written in **lua**, lazy as plugin mangaer.
 - Trouble;
 
 ## Screen
-![screen](https://github.com/Glareascum/dotfiles/assets/49961900/3b3b7a96-1ab8-4ae6-afb8-55a2dfdac080)
+![screen](https://github.com/Glareascum/dotfiles/assets/49961900/289ed7f8-d9ce-430b-9170-710f37c28d9c)
