@@ -22,5 +22,4 @@ All written in **lua** from scratch as a learning path, lazy as plugin manager u
 - Trouble;
 
 ## Screen
-![2023-08-19-003701_1920x1080_scrot](https://github.com/Glareascum/dotfiles/assets/49961900/cc1dfc15-58bb-451e-92b5-cb92e93b6d5d)
-
+![screen](https://github.com/Glareascum/dotfiles/assets/49961900/289ed7f8-d9ce-430b-9170-710f37c28d9c)
