@@ -8,4 +8,4 @@ require('plugins.lazy')
 local U =require('core.ui')
 --  Choose theme
 --U.apply_theme('catppuccin-macchiato')
-U.apply_theme('onedark')
+U.apply_theme('tokyonight-storm')
