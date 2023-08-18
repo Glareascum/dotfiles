@@ -10,8 +10,8 @@ Actually the current setup includes:
 - **NVim** as text editing engine. Currently highly customized (of course). Current theme: tokyonight, storm variant.
 
 ## Nvim
-Still learning about Nvim, so I tried to comment at best the various files, I hope to get better at those file in the future (maybe some plugins is not configured at best).
-All written in **lua**, lazy as plugin mangaer.
+Still learning about Nvim, so I tried to comment at best the various files, I hope to get better at those file in the future (maybe some plugins are not configured at best).
+All written in **lua** from scratch as a learning path, lazy as plugin manager used mainly without events.
 
 ### Current plugins
 - CMP;
