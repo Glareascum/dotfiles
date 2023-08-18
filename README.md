@@ -19,7 +19,7 @@ All written in **lua** from scratch as a learning path, lazy as plugin manager u
 - LuaLine;
 - Telescope;
 - Treesitter;
-- Trouble;branches
+- Trouble;
 
 ## Screen
 ![2023-08-19-011159_1920x1080_scrot](https://github.com/Glareascum/dotfiles/assets/49961900/8aa29edb-0fad-46f4-8f8f-f1411499baca)
