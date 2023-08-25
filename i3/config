@@ -67,6 +67,12 @@ exec --no-startup-id setxkbmap it
 # Wallpaper
 exec --no-startup-id feh --bg-scale ~/.config/wallpaper/wallpaper.png
 
+# Dunst
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
+
+# Picom
+exec --no-startup-id picom -b
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
