@@ -5,6 +5,7 @@ Actually the current setup includes:
 ## I3
 - Implemented *catppuccin mocha flavor*;
 - Removed keybindgs with arrow keys (I have to be forced to use Vim keybindgs);
+- Light dmenu customization by adding catppuccin yellow color as main color, opening items in vertical;
 - Replaced, from standard configuration, spliting horizontal from $mod+o to $mod+s to replicate the default vim keybinding (<C-w>s).
 
 ## Kitty
