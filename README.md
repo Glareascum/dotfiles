@@ -2,14 +2,27 @@
 Personal linux configuration, highly based on [catppuccin](https://github.com/catppuccin) color scheme. Setup subject to change without any reason depending on how I feel with this configuration. 
 
 Actually the current setup includes:
-- **i3** window manager: Small editing from the default configuration;
-- **Kitty** as terminal emulator, I just added some themes grabbed from github, current one: *catppuccin mocha flavor*
-- **Picom** with basically the default configuration;
-- **Starship** for shell customization, with basically the default configuration, mainly changed the prompt and colorscheme *catppuccin*;
-- **Polybar** as bar, theme: *catppuccin mocha flavor*
-- **NVim** as text editing engine. Currently highly customized (of course). Current theme: *catppuccin macchiato flavor*
+## I3
+- Implemented *catppuccin mocha flavor*;
+- Removed keybindgs with arrow keys (I have to be forced to use Vim keybindgs);
+- Replaced, from standard configuration, spliting horizontal from $mod+o to $mod+s to replicate the default vim keybinding (<C-w>s).
 
-## Nvim
+## Kitty
+- Implemented *catppuccin mocha flavor*;
+
+## Starship
+- Implemented *catppuccin mocha flavor*;
+- Edited prompt to have also the arch symbol;
+
+## Picom 
+Standard configuration;
+
+## Polybar
+- Implemented *catppuccin mocha flavor*;
+- Modular .ini files;
+- Currently implemented: Cpu usage, Ram usage, CPU temperature, I3workspace, Network usage, Volume, Battery, Date and time.
+
+## Neovim
 Still learning about Nvim, so I tried to comment at best the various files, I hope to get better at those file in the future (maybe some plugins are not configured at best).
 All written in **lua** from scratch as a learning path, lazy as plugin manager used mainly without events.
 
