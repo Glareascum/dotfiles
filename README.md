@@ -22,6 +22,12 @@ Standard configuration;
 - Modular .ini files;
 - Currently implemented: Cpu usage, Ram usage, CPU temperature, I3workspace, Network usage, Volume, Battery, Date and time.
 
+## Dunst
+- Implemented *catppuccin mocha flavor*
+
+## Ranger
+- Added kitty as display image mode in order to show images within it (python-pillow package is required on your system).
+
 ## Neovim
 Still learning about Nvim, so I tried to comment at best the various files, I hope to get better at those file in the future (maybe some plugins are not configured at best).
 All written in **lua** from scratch as a learning path, lazy as plugin manager used mainly without events.
