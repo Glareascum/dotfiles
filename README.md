@@ -33,7 +33,7 @@ Still learning about Nvim, so I tried to comment at best the various files, I ho
 All written in **lua** from scratch as a learning path, lazy as plugin manager used mainly without events.
 
 ### Current plugins
-- CMP;
+- [CMP](https://github.com/hrsh7th/nvim-cmp);
 - [LSPConfig](https://github.com/neovim/nvim-lspconfig);
 - [LuaLine](https://github.com/nvim-lualine/lualine.nvim);
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim);
