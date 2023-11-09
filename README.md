@@ -42,9 +42,4 @@ All written in **lua** from scratch as a learning path, lazy as plugin manager u
 - [Trouble](https://github.com/folke/trouble.nvim);
 
 ## Screen
-![2023-08-25-210938_1920x1080_scrot](https://github.com/Glareascum/dotfiles/assets/49961900/b6f5299f-00e7-44ab-9b37-57d9b3b9871d)
-![2023-08-25-211116_1920x1080_scrot](https://github.com/Glareascum/dotfiles/assets/49961900/19a6e2dd-33c8-4770-8189-624fcb759902)
-![2023-08-25-213647_1920x1080_scrot](https://github.com/Glareascum/dotfiles/assets/49961900/ac73d6cf-3233-46b7-8c32-fd239ab68338)
-
-
-
+![screen](https://github.com/Glareascum/dotfiles/assets/49961900/adab8e64-63f3-4872-a85e-8f33dfcc5eae)
