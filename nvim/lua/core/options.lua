@@ -11,7 +11,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 -- Mouse usage
 vim.opt.mouse = 'a'
---Ignorecase and smartcase
+-- Smartcase
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 -- Wrap the lines to make them always visible and preserve indentation
